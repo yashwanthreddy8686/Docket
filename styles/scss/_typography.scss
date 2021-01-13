@@ -1,0 +1,47 @@
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.sidebar-brand {
+  padding: 16px;
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+.board-info {
+  position: relative;
+  .board-more-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    ::after {
+      display: none;
+    }
+    .btn {
+      padding: 2px 4px !important;
+      color: #666;
+    }
+  }
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.home-nav {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  background-color: transparent !important;
+}
